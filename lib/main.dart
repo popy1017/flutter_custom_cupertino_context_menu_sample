@@ -94,7 +94,7 @@ class MyHomePage extends StatelessWidget {
 class TappablePhoto extends StatelessWidget {
   TappablePhoto({this.onTap});
 
-  VoidCallback onTap;
+  final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
